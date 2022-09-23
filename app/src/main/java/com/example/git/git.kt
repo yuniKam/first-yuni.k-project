@@ -35,3 +35,23 @@ package com.example.git
     Step 3 : Github로 올리기
             git push origin master
             내 컴퓨터에 소스코드를 업데이트를 하고 싶으면 이 세개의 스텝만 계속 반복하면 됨.
+
+
+###############################
+Github로 팀프로젝트 하는법
+https://hackmd.io/@oW_dDxdsRoSpl0M64Tfg2g/ByfwpNJ-K
+###############################
+
+Step 1 : Github에서 소스코드 다운로드
+    git clone 주소 폴더이름
+Step 2 : Github에서 내 브렌치(branch)만들기
+    git checkout -b 브렌치이름
+Step 3 : 내 브렌치에 소스코드 업데이트하기
+    git add .
+    git commit -m "first commit"
+    git push origin 브렌치이름
+Step 4 : 마스터 브렌치에 소스 가져오기(pull)
+    git pull origin master
+    pull을 하기전에는 기존에 소스코드들을 commit을 먼저 해놔야 한다.
+Step 5 : 브렌치끼리 이동하는 법
+    git checkout 브렌치이름
